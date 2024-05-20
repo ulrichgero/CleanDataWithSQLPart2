@@ -7,7 +7,9 @@ LIKE layoffs
 ```
 
 -- check if every columns has been duplicated correctly
+
 ```SELECT * FROM layoffs_copy ```
+
 -- Now let copy everything from orginal table to the copy
 
 ```
