@@ -1,3 +1,25 @@
+-- First thing, let duplicate the tables 
+CREATE TABLE data_2020
+LIKE FAOSTAT_DATA_2020;
+-- Check if all columns has copied correctly
+
+SELECT *
+FROM data_2020;
+
+-- Now let copy all data from original table into the duplicate one.
+INSERT data_2020
+SELECT *
+FROM FAOSTAT_DATA_2020;
+
+-- Check again if everything has been done.
+
+SELECT *
+FROM data_2020;
+
+-- Repeat the same process for 2022 data by creating a table colled data_2022
+
+
+
 -- checking all columns from 2020 data
 SELECT * from data_2020;
 -- from the result, we've 15 columns 
