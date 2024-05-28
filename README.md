@@ -10,3 +10,4 @@ For this cleanning section, I'll use two data set from different year to compare
  - Check the columns name
  - Rename some column name to better perform Union and Joins
  - Sort the data
+ - Perform Case, Union, Joins
